@@ -1,0 +1,84 @@
+.users-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.users-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.users-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.users-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.users-button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.users-button:hover {
+  background-color: #45a049;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.users-table th {
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.users-actions button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.users-actions .edit {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.users-actions .edit:hover {
+  background-color: #1976D2;
+}
+
+.users-actions .delete {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.users-actions .delete:hover {
+  background-color: #d32f2f;
+}
