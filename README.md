@@ -24,6 +24,11 @@ npm install
 npm run dev
 ```
 
+4. Credenciales 
+ - Email: prueba@gmail.com
+ - Password: 123456
+
+
 
 ## Decisiones tecnicas 
 

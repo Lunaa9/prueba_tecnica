@@ -3,9 +3,10 @@ const STORAGE_KEY = "users";
 
 // Inicializar con datos simulados si no existe en localStorage
 const initialUsers = [
-  { id: 1, name: "Juan Pérez", email: "juan@.com" },
-  { id: 2, name: "Ana Gómez", email: "ana@test.com" },
+  { id: 1, name: "Juan Pérez", email: "juan@gmail.com" },
+  { id: 2, name: "Ana Gómez", email: "ana@gmail.com" },
   { id: 3, name: "Luna Ramirez", email: "" },
+  { id: 3, name: "stefhanny diaz", email: "" },
 ];
 
 if (!localStorage.getItem(STORAGE_KEY)) {
