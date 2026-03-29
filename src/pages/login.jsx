@@ -1,28 +1,18 @@
 import { useState } from "react";
 import { useAuth } from "../context/AuthContext";
 import "../styles/login.css";
-import Swal from "sweetalert2";
 
-const login = () => {
+const LoginPage = () => {
   const { login } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
-  e.preventDefault();
-  login(email, password);
-
-  Swal.fire({
-    icon: "success",
-    title: "Bienvenido",
-    text: `Hola ${email}, tu sesión ha iniciado correctamente.`,
-    timer: 2000,
-    showConfirmButton: false,
-  });
-};
+    e.preventDefault();
+    login(email, password);
+  };
 
   return (
-    //Formulario de inicio de sesion 
     <div className="login-container">
       <div className="login-card">
         <h2 className="login-title">Iniciar Sesión</h2>
@@ -56,4 +46,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default LoginPage;
