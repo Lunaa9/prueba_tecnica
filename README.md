@@ -1,4 +1,4 @@
-# Prueba_Tecnica - En react 
+# Prueba_Tecnica - En React 
 
 ## Descripcion 
 
@@ -35,9 +35,9 @@ Hooks de React y LocalStorage para persistencia basica en cliente.
 
 Minimalista y moderno, con tarjetas limpias y animaciones sutiles.
 
-## Framework:
+## Lneguajes utilizados:
 
-React + TypeScript
+JavaScript(logica principal), CSS(estilos), HTML(estructura principal).
 
 
 
