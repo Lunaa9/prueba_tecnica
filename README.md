@@ -1,17 +1,49 @@
-# React + Vite
+# Prueba_Tecnica - En react 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripcion 
 
-Currently, two official plugins are available:
+Este proyecto corresponde a la prueba tecnica realizada el 28 y 29 de marzo del presente año. El objetivo fue implementar un sistema de auteticacion con login, CRUD basico, filtros y un dashboard con metricas y feedback visual.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Instalacion 
 
-## React Compiler
+1. Clonar el repositorio:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/Lunaa9/prueba_tecnica.git
+```
 
-## Expanding the ESLint configuration
+2. Instalar las dependencias 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Prueba_Tecnica
+```bash
+npm install
+```
+
+3. Ejecutar el proyecto 
+
+```bash
+npm run dev
+```
+
+
+## Decisiones tecnicas 
+
+## Gestion de estado:
+
+Hooks de React y LocalStorage para persistencia basica en cliente.
+
+## Diseño 
+
+Minimalista y moderno, con tarjetas limpias y animaciones sutiles.
+
+## Framework:
+
+React + TypeScript
+
+
+
+## Supuestos
+
+- El alcance de la prueba se limita a un CRUD basico y un dashboard con metricas simples sin un escalabidad empresarial. 
+- Se asumio que la persistencia podia resolverse con LocalStorage, sin necesidad de una base de datos en la nube. 
+- El diseño debia ser funcional y agradable, pero no exigia un sistema de seguridad avanzada.
+- Se considera el proyecto facilmente ejecutable en cualquier entorno con Node.js instalado.
